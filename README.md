@@ -35,34 +35,30 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Features
-1. Dashboard Layout
-Display a list of job applications, each with:
-Job title
-Company name
-Status (e.g., "Applied," "Interviewing," "Rejected," "Offer Received")
-Application date
-Actions (Edit or Delete)
-2. Features & Functionalities
-Display Job Applications:
+## Dashboard Layout
 
-Fetch job data from a static JSON file or mock API.
-Display job applications using a table or card layout.
-Filtering & Sorting:
+  Display a list of job applications, each with:
+  Job title
+  Company name
+  Status (e.g., "Applied," "Interviewing," "Rejected," "Offer Received")
+  Application date
+  Actions (Edit or Delete)
 
-Search Bar: Filter job applications by title or company.
-Filter Buttons: Filter by status (e.g., only "Interviewing" or "Offer Received").
-Sort by Date Applied: Sort applications by the date they were submitted.
-Interactive Status Update:
+## Features & Functionalities
 
-Allow users to click on the status and update it (e.g., change "Applied" to "Interviewing").
-Delete Application:
+  Display Job Applications: 
+    - Fetch job data from a static JSON file or mock API.
+    - Display job applications using a table or card layout.
 
-Each job entry should have a delete button to remove it from the list.
-Responsive UI:
+## Filtering & Sorting:
 
-Ensure the layout is mobile-friendly and adjusts well to different screen sizes.
+  - Search Bar: Filter job applications by title or company.
+  - Filter Buttons: Filter by status (e.g., only "Interviewing" or "Offer Received").
+  - Sort by Date Applied: Sort applications by the date they were submitted.
+  - Interactive Status Update:Allow users to click on the status and update it (e.g., change "Applied" to     "Interviewing").
+  - Delete Application: Each job entry should have a delete button to remove it from the list.
+  - Responsive UI: Ensure the layout is mobile-friendly and adjusts well to different screen sizes.
 
 ## Obstacles and Struggles 
 
-Working on the Job Applications Dashboard was definitely an interesting challenge. Managing the state for features like filtering, sorting, and updating the job status was a bit tricky, especially as the data grew. Ensuring the dashboard remained responsive across all devices was also a bit of a headache, but with the right CSS techniques, I was able to keep the layout clean and user-friendly. A big part of the struggle was making sure that when users updated job statuses or deleted applications, those actions were saved properly, even after page reloads. It took some careful handling of local storage to make sure everything persisted as expected.
+  Working on the Job Applications Dashboard was definitely an interesting challenge. Managing the state for features like filtering, sorting, and updating the job status was a bit tricky, especially as the data grew. Ensuring the dashboard remained responsive across all devices was also a bit of a headache, but with the right CSS techniques, I was able to keep the layout clean and user-friendly. A big part of the struggle was making sure that when users updated job statuses or deleted applications, those actions were saved properly, even after page reloads. It took some careful handling of local storage to make sure everything persisted as expected.
