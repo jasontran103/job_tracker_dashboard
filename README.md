@@ -37,18 +37,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## Dashboard Layout
 
-  Display a list of job applications, each with:
-  Job title
-  Company name
-  Status (e.g., "Applied," "Interviewing," "Rejected," "Offer Received")
-  Application date
-  Actions (Edit or Delete)
+  - Display a list of job applications, each with:
+  - Job title
+  - Company name
+  - Status (e.g., "Applied," "Interviewing," "Rejected," "Offer Received")
+  - Application date
+  - Actions (Edit or Delete)
 
 ## Features & Functionalities
 
-  Display Job Applications: 
-    - Fetch job data from a static JSON file or mock API.
-    - Display job applications using a table or card layout.
+  - Fetch job data from a static JSON file
+  - Display job applications using a card layout.
 
 ## Filtering & Sorting:
 
